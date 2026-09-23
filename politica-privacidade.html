@@ -5,23 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editus - Política de Privacidade</title>
     <style>
-        :root { --primary: #2563eb; --bg: #f8fafc; --text: #334155; --card: #ffffff; --border: #e2e8f0; }
+        :root { --primary: #7c3aed; --primary-hover: #6d28d9; --bg: #f8fafc; --text: #334155; --card: #ffffff; --border: #e2e8f0; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 0; }
         header { background: var(--card); border-bottom: 1px solid var(--border); padding: 20px 0; text-align: center; }
-        header h1 { margin: 0; font-size: 24px; color: #1e293b; }
-        header p { margin: 5px 0 0 0; color: #64748b; font-size: 14px; }
+        .logo-container { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 5px; }
+        .logo-container img { width: 40px; height: 40px; border-radius: 8px; }
+        header h1 { margin: 0; font-size: 26px; color: #1e293b; }
+        header p { margin: 0; color: #64748b; font-size: 14px; }
         .container { max-width: 800px; margin: 30px auto; padding: 30px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
         .nav { display: flex; gap: 10px; margin-bottom: 25px; border-bottom: 1px solid var(--border); padding-bottom: 15px; flex-wrap: wrap; }
         .nav a { text-decoration: none; padding: 8px 16px; border-radius: 6px; font-weight: 600; font-size: 14px; background: #e2e8f0; color: #475569; transition: 0.2s; }
+        .nav a:hover { background: #cbd5e1; }
         .nav a.active { background: var(--primary); color: #fff; }
         h2 { color: #1e293b; margin-top: 0; }
-        h3 { color: #334155; font-size: 16px; margin-top: 20px; }
+        h3 { color: #7c3aed; font-size: 17px; margin-top: 25px; border-bottom: 1px solid #f1f5f9; padding-bottom: 5px; }
+        p, li { color: #334155; }
+        ul, ol { padding-left: 20px; }
+        li { margin-bottom: 6px; }
         footer { text-align: center; padding: 30px 0; color: #94a3b8; font-size: 13px; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Editus</h1>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo Editus">
+            <h1>Editus</h1>
+        </div>
         <p>Gestão de Estudos Gamificada — LorangeStudio</p>
     </header>
     <div class="container">
@@ -31,15 +40,59 @@
             <a href="excluir-dados.html">Excluir Dados</a>
         </div>
         
-        <h2>Política de Privacidade</h2>
-        <p><strong>Última atualização:</strong> 2026</p>
-        <p>O aplicativo <strong>Editus</strong> (desenvolvido sob a marca LorangeStudio) valoriza a sua privacidade. Esta página descreve como tratamos as suas informações de uso e cadastro.</p>
+        <h2>Política de Privacidade – Editus</h2>
+        <p><strong>Última atualização:</strong> 23 de setembro de 2026[cite: 3]</p>
         
-        <h3>1. Informações Coletadas</h3>
-        <p>Para o funcionamento da gestão de estudos e recursos de gamificação, o Editus armazena dados de progresso acadêmico, configurações de perfil e informações necessárias para o controle de compras e assinaturas.</p>
-        
-        <h3>2. Uso das Informações</h3>
-        <p>Os dados coletados são utilizados exclusivamente para sincronizar e manter o funcionamento correto da sua experiência de estudo e placares dentro do aplicativo.</p>
+        <p>O aplicativo <strong>Editus</strong>, desenvolvido pela <strong>LorangeStudio</strong>, respeita a privacidade dos seus usuários[cite: 3]. Esta política explica quais dados coletamos, como usamos e quais são os seus direitos, em conformidade com a Lei Geral de Proteção de Dados (LGPD)[cite: 3].</p>
+
+        <h3>1. Dados que coletamos</h3>
+        <ul>
+            <li><strong>Dados de conta</strong> — ao criar uma conta (e-mail e senha, ou login com o Google), coletamos o e-mail e o nome associados à conta, por meio do Firebase Authentication[cite: 3].</li>
+            <li><strong>Dados de uso do app</strong> — informações que você cadastra dentro do Editus, como editais, ciclos de estudo, desempenho em simulados e configurações pessoais[cite: 3]. Esses dados ficam armazenados localmente no seu dispositivo e, quando aplicável, sincronizados de forma segura com o Firebase para permitir a recuperação da conta em outro aparelho[cite: 3].</li>
+            <li><strong>Dados de publicidade</strong> — utilizamos o Google AdMob para exibir anúncios na versão gratuita[cite: 3]. O AdMob pode coletar identificadores de publicidade e dados de interação com os anúncios, conforme a política de privacidade do Google[cite: 3].</li>
+            <li><strong>Dados de compra</strong> — caso você adquira a versão sem anúncios, a transação é processada pelo Google Play Billing[cite: 3]. Não armazenamos dados de cartão ou pagamento; essas informações ficam sob responsabilidade do Google[cite: 3].</li>
+        </ul>
+
+        <h3>2. Como usamos os dados</h3>
+        <p>Usamos os dados coletados para[cite: 3]:</p>
+        <ul>
+            <li>Manter sua conta e permitir a recuperação do progresso entre dispositivos[cite: 3];</li>
+            <li>Exibir anúncios (enquanto a versão gratuita estiver ativa)[cite: 3];</li>
+            <li>Processar a compra da remoção de anúncios[cite: 3];</li>
+            <li>Melhorar a experiência e a estabilidade do aplicativo[cite: 3].</li>
+        </ul>
+        <p><em>Não vendemos seus dados pessoais a terceiros[cite: 3].</em></p>
+
+        <h3>3. Compartilhamento com terceiros</h3>
+        <p>Utilizamos os seguintes serviços de terceiros, cada um regido por sua própria política de privacidade[cite: 3]:</p>
+        <ul>
+            <li><strong>Firebase (Google)</strong> — autenticação e armazenamento em nuvem[cite: 3]</li>
+            <li><strong>Google AdMob</strong> — exibição de anúncios[cite: 3]</li>
+            <li><strong>Google Play Billing</strong> — processamento de compras[cite: 3]</li>
+        </ul>
+
+        <h3>4. Seus direitos (LGPD)</h3>
+        <p>Você pode, a qualquer momento[cite: 3]:</p>
+        <ul>
+            <li>Solicitar acesso aos seus dados[cite: 3];</li>
+            <li>Corrigir dados incorretos[cite: 3];</li>
+            <li>Solicitar a exclusão da sua conta e dos seus dados[cite: 3];</li>
+            <li>Revogar o consentimento para uso de dados[cite: 3].</li>
+        </ul>
+        <p>Para excluir sua conta ou seus dados, use as opções disponíveis dentro do próprio app (em Configurações) ou entre em contato pelo e-mail abaixo[cite: 3].</p>
+
+        <h3>5. Segurança</h3>
+        <p>Adotamos medidas técnicas razoáveis para proteger seus dados contra acesso não autorizado, alteração ou perda[cite: 3].</p>
+
+        <h3>6. Crianças</h3>
+        <p>O Editus não é direcionado a menores de 13 anos e não coletamos intencionalmente dados de crianças[cite: 3].</p>
+
+        <h3>7. Alterações nesta política</h3>
+        <p>Esta política pode ser atualizada periodicamente[cite: 3]. Mudanças significativas serão comunicadas dentro do aplicativo[cite: 3].</p>
+
+        <h3>8. Contato</h3>
+        <p>Dúvidas sobre esta política? Fale conosco: <strong>rafaelperbony@gmail.com</strong>[cite: 3]</p>
+
     </div>
     <footer><p>&copy; 2026 LorangeStudio - Todos os direitos reservados.</p></footer>
 </body>
